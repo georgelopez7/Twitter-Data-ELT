@@ -2,7 +2,7 @@
 
 ![MicrosoftTeams-image_2](https://user-images.githubusercontent.com/71076769/212994427-f25e9aa8-e181-4e61-b3ce-1790deec8e60.png)
 
-> ELT Pipeline for tweets including ChatGPT and conducting sentiment analysis. 
+> ELT Pipeline for tweets including ChatGPT, loaded into MongoDB in preparation for sentiment analysis. 
 
 ---
 
