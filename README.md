@@ -101,7 +101,7 @@ Below you can see an entry within the MongoDB database with all the attributes l
 
 ---
 
-## Authors Info
+## Author Info
 
 LinkedIn - [George Lopez](https://www.linkedin.com/in/george-benjamin-lopez/)
 
