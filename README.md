@@ -10,7 +10,7 @@
 
 - [Description](#description)
     
-    -  [Technologies & Softwares](#technologies)
+    -  [Technologies & Softwares](#technologies-and-softwares)
 
 - [Database](#database)
 
