@@ -42,7 +42,7 @@ The collected data will be used to conduct sentiment analysis on tweets includin
     
     Used  MongoDB to load and store the collected data from the Twitter API
 
-[Back To The Top](#twitter-data-elt-using-mongodb)
+[Back To The Top](#twitter-data-elt)
 
 ---
 
@@ -97,7 +97,7 @@ Below you can see an entry within the MongoDB database with all the attributes l
  'user_mentions': ['MrSumitBindra']}
 ```
 
-[Back To The Top](#twitter-data-etl)
+[Back To The Top](#twitter-data-elt)
 
 ---
 
@@ -111,4 +111,4 @@ LinkedIn - [Matias Sanchez Wilson](https://www.linkedin.com/in/matiassanchezwils
 
 LinkedIn - [Asfia Hossoin](https://www.linkedin.com/in/asfia-hossoin-9521b6243/)
 
-[Back To The Top](#twitter-data-elt-using-mongodb)
+[Back To The Top](#twitter-data-elt)
