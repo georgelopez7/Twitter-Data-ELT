@@ -1,6 +1,7 @@
 # Twitter Data ELT
 
-![MicrosoftTeams-image_2](https://user-images.githubusercontent.com/71076769/212994427-f25e9aa8-e181-4e61-b3ce-1790deec8e60.png)
+![ELT](https://user-images.githubusercontent.com/71076769/214063033-6a0fa734-e67a-4c24-b9de-2afbf5fd38bd.png)
+
 
 > ELT Pipeline for tweets including ChatGPT, loaded into MongoDB in preparation for sentiment analysis. 
 
@@ -16,6 +17,8 @@
 
     -  [Data Example](#data-example) 
 - [Author Info](#author-info)
+
+- [Analysis](#analysis)
 
 ---
 
@@ -36,7 +39,7 @@ The collected data will be used to conduct sentiment analysis on tweets includin
         Used to interact with MongoDB with Python.
     - **textBlob** package
 
-        ADD DESCRIPTION HERE!!
+        Used to conduct sentiment analysis on the collected tweets containing "ChatGPT".
 
 - MongoDB
     
@@ -96,6 +99,17 @@ Below you can see an entry within the MongoDB database with all the attributes l
  'user_id': 973873816358342657,
  'user_mentions': ['MrSumitBindra']}
 ```
+
+[Back To The Top](#twitter-data-elt)
+
+---
+
+## Analysis
+
+Below you can see the analysis conducted on the collected tweets after being passed through textblob to conduct sentiment analysis.
+
+![MicrosoftTeams-image_4](https://user-images.githubusercontent.com/71076769/214063666-b23917c9-fc29-41bf-a694-289b1b0b448e.png)
+
 
 [Back To The Top](#twitter-data-elt)
 
