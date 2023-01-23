@@ -45,7 +45,11 @@ The collected data will be used to conduct sentiment analysis on tweets includin
 
 - MongoDB
     
-    Used  MongoDB to load and store the collected data from the Twitter API
+    Used MongoDB to load and store the collected data from the Twitter API.
+
+- PowerBI
+    
+    Used to analyse the sentiment scores of the tweets.
 
 [Back To The Top](#twitter-data-elt)
 
