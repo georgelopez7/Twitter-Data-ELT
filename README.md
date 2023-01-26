@@ -26,9 +26,11 @@
 
 ## Description
 
-In this project, we are building an ELT (Extract, Load and Transform) pipeline that utilizes the Twitter API to gather tweets containing the word "ChatGPT". The tweets are then parsed to extract various attributes such as the tweet text, user information, and date of tweet. These attributes are collected and loaded into a MongoDB database. 
+In this project, we built an ELT (Extract, Load and Transform) pipeline that utilizes the Twitter API to gather tweets containing the word "ChatGPT". The tweets are then parsed to extract various attributes such as the tweet text, user information, and date of tweet which are collected and loaded into a MongoDB database. 
 
-The collected data will be used to conduct sentiment analysis on tweets including ChatGPT by applying natural language processing techniques to determining the overall sentiment (positive, neutral, or negative) towards ChatGPT.
+The collected data will be used to conduct sentiment analysis on the tweets by applying natural language processing techniques to determine the overall sentiment (positive, neutral, or negative) towards ChatGPT.
+
+Addtionally, apache airflow was implemeted to schedule the extraction of tweets from the Twitter API.
 
 ### Technologies and Softwares
 
@@ -42,10 +44,16 @@ The collected data will be used to conduct sentiment analysis on tweets includin
     - **textBlob** package
 
         Used to conduct sentiment analysis on the collected tweets containing "ChatGPT".
+        
+- Airflow
+
+    Used to schedule the extraction of tweets from the Twitter API.
+
 
 - MongoDB
     
     Used MongoDB to load and store the collected data from the Twitter API.
+    
 
 - PowerBI
     
